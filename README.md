@@ -4,7 +4,7 @@ iMirror mirrors and controls an Android phone or tablet from your Mac over USB o
 
 ## Download
 
-Download the latest `iMirror-*-macos-universal.dmg` file from the [GitHub Releases page](../../releases).
+Download the latest `iMirror-*-macos-universal*.dmg` file from the [GitHub Releases page](https://github.com/ErIMRANALAM/iMirror-Releases/releases/latest).
 
 The universal app supports Apple silicon and Intel Macs running macOS 14 or later. Android Platform-Tools are downloaded from Google after you accept Google's SDK terms if ADB is not already installed.
 
