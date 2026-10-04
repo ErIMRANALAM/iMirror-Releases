@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://erimranalam.github.io/iMirror-Releases/sitemap.xml

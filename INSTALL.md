@@ -12,7 +12,7 @@ Requires macOS 14 or later. The DMG includes the iMirror Android agent; it does 
 Compare the DMG's SHA-256 digest with the value shown in the GitHub release notes. On macOS, run:
 
 ```sh
-shasum -a 256 iMirror-*-macos-universal.dmg
+  shasum -a 256 iMirror-*-macos-universal*.dmg
 ```
 
 ## macOS security

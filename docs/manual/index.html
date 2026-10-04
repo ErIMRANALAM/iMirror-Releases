@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn how to connect and use iMirror for Android screen mirroring on macOS over USB or Wi-Fi.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://erimranalam.github.io/iMirror-Releases/manual/">
+  <title>User Manual — iMirror</title>
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="iMirror by Our Apps World">
+  <meta property="og:title" content="iMirror User Manual — USB, Wi-Fi, controls, and captures">
+  <meta property="og:description" content="Step-by-step help for connecting an Android device and using iMirror on Mac.">
+  <meta property="og:url" content="https://erimranalam.github.io/iMirror-Releases/manual/">
+  <meta property="og:image" content="https://erimranalam.github.io/iMirror-Releases/assets/social-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="iMirror User Manual — USB, Wi-Fi, controls, and captures">
+  <meta name="twitter:description" content="Step-by-step help for connecting an Android device and using iMirror on Mac.">
+  <meta name="twitter:image" content="https://erimranalam.github.io/iMirror-Releases/assets/social-preview.png">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "iMirror User Manual",
+    "description": "Step-by-step help for USB and Wi-Fi connections, mirroring controls, screenshots, recordings, and troubleshooting.",
+    "mainEntityOfPage": "https://erimranalam.github.io/iMirror-Releases/manual/",
+    "dateModified": "2026-10-01",
+    "author": { "@type": "Organization", "name": "OAW INFOTECH LLP", "url": "https://ourappsworld.com/" },
+    "publisher": { "@type": "Organization", "name": "Our Apps World", "url": "https://ourappsworld.com/" }
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="brand" href="../"><img src="../assets/favicon.svg" alt=""><span>iMirror<small>by Our Apps World</small></span></a>
+      <div class="nav-links"><a href="../">Overview</a><a href="../manual/" aria-current="page">User manual</a><a href="../privacy/">Privacy</a><a class="nav-cta" href="mailto:support@ourappsworld.com?subject=iMirror%20support">Get support</a></div>
+      <details class="mobile-menu">
+        <summary><span>Menu</span><span class="menu-icon" aria-hidden="true">☰</span></summary>
+        <div class="mobile-menu-panel">
+          <a href="../">Overview</a>
+          <a href="../manual/" aria-current="page">User manual</a>
+          <a href="../privacy/">Privacy</a>
+          <a href="mailto:support@ourappsworld.com?subject=iMirror%20support">Get support</a>
+        </div>
+      </details>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero"><div class="container"><span class="eyebrow">iMirror for macOS</span><h1>User manual</h1><p>Connect an Android device, mirror its display, and use Mac controls. This guide is designed to scroll—use the section links to jump directly to a topic.</p></div></section>
+    <div class="container content-layout">
+      <nav class="toc" aria-label="Manual contents"><strong>In this guide</strong><a href="#requirements">Before you begin</a><a href="#usb">USB connection</a><a href="#wifi">Wi-Fi connection</a><a href="#controls">Controls & text</a><a href="#captures">Screenshots & recording</a><a href="#troubleshooting">Troubleshooting</a></nav>
+      <article class="article">
+        <h2 id="requirements">Before you begin</h2>
+        <ul><li>A Mac running macOS 14 or later.</li><li>An Android phone or tablet with Developer options enabled.</li><li>A USB cable for wired setup, or a trusted Wi-Fi network shared by the Mac and Android device.</li></ul>
+        <p>iMirror uses Android Debug Bridge (ADB). If Platform-Tools are not installed, iMirror can offer to download them from Google's official source after showing the SDK terms for your review. Java and Android Studio are not required on the receiving Mac.</p>
+
+        <h2 id="usb">Connect over USB</h2>
+        <ol><li>On Android, open Settings and enable Developer options. The exact menu path varies by manufacturer.</li><li>Enable <strong>USB debugging</strong>, then connect the device to your Mac.</li><li>Unlock Android and approve the <strong>Allow USB debugging?</strong> prompt. If available, select “Always allow from this computer” only on a Mac you trust.</li><li>In iMirror, choose the authorized device and select <strong>Start mirroring</strong>.</li></ol>
+        <div class="tip"><strong>First connection:</strong> keep the Android device unlocked while it authorizes. If macOS asks for permission to find devices on the local network, allow it for Wi-Fi ADB discovery.</div>
+
+        <h2 id="wifi">Connect over Wi-Fi</h2>
+        <p>Wireless debugging is supported on Android 11 and later. Keep the Mac and phone on the same trusted network.</p>
+        <ol><li>On Android, open Developer options and enable <strong>Wireless debugging</strong>.</li><li>Choose <strong>Pair device with pairing code</strong>. In iMirror, choose Connect over Wi-Fi and enter the pairing IP address, port, and six-digit code shown on Android.</li><li>After pairing, connect using the separate IP address and port shown on the main Wireless debugging screen. The pairing port and connection port are different.</li><li>When the device appears in iMirror, select it and start mirroring.</li></ol>
+        <p>A USB-assisted Wi-Fi option may also be available: select an authorized USB device and choose <strong>Enable Wi-Fi</strong>. This uses legacy ADB TCP mode on port 5555. Use it only on a trusted private network; disconnecting from iMirror does not disable that device-side listener.</p>
+        <div class="tip warning"><strong>Network safety:</strong> ADB over Wi-Fi provides powerful device access. Do not expose its port to the public internet or use an untrusted network. Return the device to USB mode when finished with legacy TCP mode.</div>
+
+        <h2 id="controls">Mirror controls and text</h2>
+        <ul><li>Click the mirrored preview to focus it. Click or drag to tap and swipe.</li><li>Scroll over the preview with a mouse wheel or trackpad.</li><li>Use the toolbar's Back, Home, and Recents buttons to navigate Android.</li><li>Press <strong>Command-V</strong> to send plain text from the Mac clipboard to the focused Android field. Pasting replaces the Android clipboard; avoid sending secrets to a device you do not trust.</li></ul>
+
+        <h2 id="captures">Save screenshots and recordings</h2>
+        <ul><li>Choose the camera button or press <strong>⌘S</strong> to save a PNG screenshot.</li><li>Choose Record or press <strong>⇧⌘R</strong> to start or stop an MP4 recording.</li><li>Select a destination in the save dialog. Use <strong>Show in Finder</strong> to locate the latest capture.</li></ul>
+        <p>Captures contain the Android display, not the Mac window chrome. Recordings contain video only and do not include audio. A recording is finalized when stopped, disconnected, or interrupted by a display-size change.</p>
+
+        <h2 id="troubleshooting">Troubleshooting</h2>
+        <h3>Device does not appear</h3><p>Unlock the phone, reconnect the cable, confirm USB debugging is enabled, accept the trust prompt, then use Refresh. Try another data-capable USB cable or port if needed.</p>
+        <h3>Device shows as unauthorized</h3><p>Check the Android screen for the USB debugging authorization dialog. If the prompt does not return, revoke USB debugging authorizations in Android Developer options, reconnect, and approve the new prompt.</p>
+        <h3>Wi-Fi pairing or connection fails</h3><p>Confirm both devices share a network, use the pairing address only for pairing and the main Wireless debugging address for connecting, and re-pair if Android's address or port changed. Some guest networks isolate devices from one another.</p>
+        <h3>Connection is slow or stalls</h3><p>Move both devices closer to the Wi-Fi access point, avoid congested guest networks, or switch to USB. If the first frame does not arrive, reconnect the device.</p>
+        <h3>Some Android content is black</h3><p>Android may intentionally protect secure or DRM content from screen capture. iMirror cannot bypass those protections.</p>
+        <div class="tip">Still stuck? Email <a href="mailto:support@ourappsworld.com">support@ourappsworld.com</a> with your Mac model, macOS version, Android model/version, and connection type. Do not include private screen recordings unless you intend to share them.</div>
+      </article>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container footer-row"><div class="footer-copy">© 2026 OAW INFOTECH LLP · Our Apps World<br>iMirror User Manual</div><div class="footer-links"><a href="../">Overview</a><a href="../privacy/">Privacy</a><a href="mailto:support@ourappsworld.com">Contact support</a></div></div></footer>
+</body>
+</html>

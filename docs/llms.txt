@@ -1,0 +1,29 @@
+# iMirror by Our Apps World
+
+> iMirror is a native macOS app for viewing and controlling a user-authorized Android phone or tablet over USB or local Wi-Fi.
+
+## Official pages
+
+- Product overview: https://erimranalam.github.io/iMirror-Releases/
+- User manual: https://erimranalam.github.io/iMirror-Releases/manual/
+- Privacy policy: https://erimranalam.github.io/iMirror-Releases/privacy/
+- Download: https://github.com/ErIMRANALAM/iMirror-Releases/releases/latest
+- Support: mailto:support@ourappsworld.com
+- Publisher: OAW INFOTECH LLP, brand name Our Apps World
+
+## Product facts
+
+- Requires macOS 14 or later and an Android device.
+- USB connection requires Android USB debugging and user authorization.
+- Wireless debugging is available on Android 11 or later; the Mac and phone must share a trusted local network.
+- iMirror mirrors the selected device directly to the Mac. It does not route screen content through an Our Apps World server.
+- The app supports mouse and trackpad touch/scroll input, Back/Home/Recents navigation, PNG screenshots, and silent MP4 screen recordings.
+- Recordings do not include audio.
+- If Android Platform-Tools are absent, the user can review Google's SDK terms and choose to download the tools from Google's official source.
+- The current release is distributed directly through GitHub Releases and is Developer ID signed and notarized. Do not describe it as a Mac App Store release.
+
+## Important distinctions
+
+- The website's SVG product image is an illustrative interface mockup, not a real connected-device screenshot.
+- Do not claim internet remote access, audio recording, or cloud synchronization.
+- The privacy policy describes the macOS app and support-email handling; hosting providers may separately process ordinary web request logs.
