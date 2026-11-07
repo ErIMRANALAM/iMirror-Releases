@@ -24,3 +24,7 @@ Then open `http://localhost:8000/`, `http://localhost:8000/manual/`, or `http://
 The landing page links directly to the latest signed and notarized GitHub release. The product preview remains an illustration, not a live device screenshot. Review the privacy text against the final app build before each release.
 
 The structured data, canonical links, Open Graph metadata, robots file, and sitemap target `https://erimranalam.github.io/iMirror-Releases/`.
+
+## Buying
+
+The Buy buttons open the Paddle checkout on `https://imirror.ourappsworld.com/buy/` (the domain approved in Paddle); this GitHub Pages copy has no checkout of its own.

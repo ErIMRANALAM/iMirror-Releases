@@ -162,3 +162,21 @@ h1 em { color: var(--blue); font-style: normal; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
+
+/* Pricing and purchase pages */
+.pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 20px; max-width: 800px; margin: 0 auto; }
+.plan { position: relative; display: flex; flex-direction: column; gap: 10px; padding: 30px; background: #fff; border: 1px solid var(--line); border-radius: 22px; }
+.plan.featured { border: 2px solid var(--blue); box-shadow: 0 22px 60px rgba(56,110,232,.18); }
+.plan .plan-tag { position: absolute; top: -13px; left: 26px; background: var(--blue); color: #fff; font-size: 12px; font-weight: 800; letter-spacing: .04em; padding: 4px 12px; border-radius: 999px; }
+.plan h3 { margin: 0; font-size: 20px; }
+.plan .price { font-size: 54px; font-weight: 800; letter-spacing: -.05em; line-height: 1.05; }
+.plan .price small { font-size: 15px; font-weight: 600; letter-spacing: 0; color: var(--muted); }
+.plan ul { list-style: none; margin: 8px 0 22px; padding: 0; display: grid; gap: 10px; color: #3f4b60; font-size: 15px; }
+.plan li { position: relative; padding-left: 26px; }
+.plan li::before { content: "✓"; position: absolute; left: 0; color: #2f9d6e; font-weight: 800; }
+.plan .button { margin-top: auto; }
+.fineprint { max-width: 680px; margin: 22px auto 0; text-align: center; color: var(--muted); font-size: 13.5px; }
+.buy-box { max-width: 640px; margin: 0 auto; padding: 56px 0 90px; text-align: center; }
+.buy-box h1 { margin-inline: auto; font-size: clamp(32px, 5vw, 44px); }
+.buy-box .hero-copy { margin-inline: auto; }
+.content-layout.single { grid-template-columns: minmax(0, 760px); justify-content: center; }

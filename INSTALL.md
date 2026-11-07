@@ -5,6 +5,8 @@
 3. Open iMirror. If ADB is missing, review and accept Google's Android SDK terms, then choose **Download and Set Up**.
 4. Connect an Android device over USB with USB debugging enabled, or use the Wi-Fi setup panel. For Android 11 and later, pair through Wireless debugging. For older Android versions, connect by USB once and choose **USB setup** to enable ADB over Wi-Fi.
 
+5. iMirror is free for 14 days. To keep it, choose **iMirror › Licence…** (⇧⌘L) and enter your key; iMirror Lifetime is a one-time $9 purchase. Later versions install themselves from **iMirror › Check for Updates…**.
+
 Requires macOS 14 or later. The DMG includes the iMirror Android agent; it does not include Google's Platform-Tools.
 
 ## Verify the download
