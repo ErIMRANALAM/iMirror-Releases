@@ -7,12 +7,15 @@
 - Product overview: https://erimranalam.github.io/iMirror-Releases/
 - User manual: https://erimranalam.github.io/iMirror-Releases/manual/
 - Privacy policy: https://erimranalam.github.io/iMirror-Releases/privacy/
+- Terms of service: https://erimranalam.github.io/iMirror-Releases/terms/
+- Refund policy: https://erimranalam.github.io/iMirror-Releases/refunds/
 - Download: https://github.com/ErIMRANALAM/iMirror-Releases/releases/latest
 - Support: mailto:support@ourappsworld.com
 - Publisher: OAW INFOTECH LLP, brand name Our Apps World
 
 ## Product facts
 
+- Pricing: free 14-day trial with every feature, then iMirror Lifetime at $9 USD one time (one person, one Mac at a time, every future update, no subscription, 14-day money-back guarantee).
 - Requires macOS 14 or later and an Android device.
 - USB connection requires Android USB debugging and user authorization.
 - Wireless debugging is available on Android 11 or later; the Mac and phone must share a trusted local network.

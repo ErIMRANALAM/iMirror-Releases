@@ -21,7 +21,7 @@
   <meta name="twitter:description" content="Mirror and control your Android phone from a focused macOS workspace over USB or Wi-Fi.">
   <meta name="twitter:image" content="https://erimranalam.github.io/iMirror-Releases/assets/social-preview.png">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=8c32ccf7">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -33,7 +33,11 @@
     "softwareRequirements": "A Mac running macOS 14 or later and an Android device with USB debugging or Wireless debugging enabled.",
     "featureList": ["Android screen mirroring", "USB and local Wi-Fi connection", "Mouse and trackpad input", "PNG screenshots", "Silent MP4 recordings"],
     "publisher": { "@type": "Organization", "name": "OAW INFOTECH LLP", "alternateName": "Our Apps World", "url": "https://ourappsworld.com/" },
-    "url": "https://erimranalam.github.io/iMirror-Releases/"
+    "url": "https://erimranalam.github.io/iMirror-Releases/",
+    "offers": [
+      { "@type": "Offer", "name": "iMirror Lifetime", "price": "9.00", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "description": "One-time purchase: one person, one Mac at a time, every future update, 14-day money-back guarantee." },
+      { "@type": "Offer", "name": "Free trial", "price": "0", "priceCurrency": "USD", "description": "14 days with every feature, no account or card." }
+    ]
   }
   </script>
   <script type="application/ld+json">
@@ -44,7 +48,10 @@
       { "@type": "Question", "name": "How does iMirror connect to Android?", "acceptedAnswer": { "@type": "Answer", "text": "iMirror uses Android Debug Bridge. Connect by USB with USB debugging enabled, or pair Wireless debugging on Android 11 or later over a trusted shared Wi-Fi network." } },
       { "@type": "Question", "name": "Does iMirror send my Android screen to the cloud?", "acceptedAnswer": { "@type": "Answer", "text": "No. The screen stream is sent directly between the Android device and your Mac over USB or your configured local network. iMirror does not route screen content through an Our Apps World server." } },
       { "@type": "Question", "name": "Can iMirror save screenshots and recordings?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Save a PNG screenshot or an MP4 video recording to a location you choose. Recordings contain video only and do not include audio." } },
-      { "@type": "Question", "name": "What Mac version does iMirror require?", "acceptedAnswer": { "@type": "Answer", "text": "iMirror requires macOS 14 or later and an Android phone or tablet with debugging enabled." } }
+      { "@type": "Question", "name": "What Mac version does iMirror require?", "acceptedAnswer": { "@type": "Answer", "text": "iMirror requires macOS 14 or later and an Android phone or tablet with debugging enabled." } },
+      {"@type": "Question", "name": "How much does iMirror cost?", "acceptedAnswer": {"@type": "Answer", "text": "iMirror has a free 14-day trial with every feature. After that, iMirror Lifetime is a one-time $9 purchase for one person, active on one Mac at a time, with every future update and no subscription."}},
+      {"@type": "Question", "name": "Can I use my licence on another Mac?", "acceptedAnswer": {"@type": "Answer", "text": "A licence is active on one Mac at a time. Activate your key on another Mac and it moves there; the first Mac is signed out automatically. You can also free it from iMirror \u203a Licence."}},
+      {"@type": "Question", "name": "Can I get a refund?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You can get a full refund within 14 days of purchase. See the Refund Policy for how to ask."}}
     ]
   }
   </script>
@@ -58,6 +65,7 @@
       </a>
       <div class="nav-links">
         <a href="manual/">User manual</a>
+        <a href="#pricing">Pricing</a>
         <a href="privacy/">Privacy</a>
         <a class="nav-cta" href="https://github.com/ErIMRANALAM/iMirror-Releases/releases/latest">Download</a>
       </div>
@@ -66,6 +74,7 @@
         <div class="mobile-menu-panel">
           <a href="./">Overview</a>
           <a href="manual/">User manual</a>
+          <a href="#pricing">Pricing</a>
           <a href="privacy/">Privacy</a>
           <a href="https://github.com/ErIMRANALAM/iMirror-Releases/releases/latest">Download for Mac</a>
         </div>
@@ -136,6 +145,37 @@
       </div>
     </section>
 
+    <section class="section section-soft" id="pricing">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Pricing</span>
+          <h2>Try it free. Keep it for $9, once.</h2>
+          <p>No subscription, no account. One licence is yours for life.</p>
+        </div>
+        <div class="pricing-grid">
+          <div class="plan">
+            <h3>Free trial</h3>
+            <div class="price">14 days</div>
+            <ul><li>Every feature, no limits</li><li>No account or card needed</li><li>Signed and notarized for macOS</li></ul>
+            <a class="button button-secondary" href="https://github.com/ErIMRANALAM/iMirror-Releases/releases/latest">Download for Mac</a>
+          </div>
+          <div class="plan featured">
+            <span class="plan-tag">LIFETIME</span>
+            <h3>iMirror Lifetime</h3>
+            <div class="price">$9 <small>one-time</small></div>
+            <ul>
+              <li>One person, active on one Mac at a time. Move it whenever you like</li>
+              <li>Every future update included</li>
+              <li>No subscription</li>
+              <li>14-day money-back guarantee</li>
+            </ul>
+            <a class="button button-primary" href="https://imirror.ourappsworld.com/buy/">Buy iMirror Lifetime</a>
+          </div>
+        </div>
+        <p class="fineprint">Prices in US dollars; sales tax or VAT is added at checkout where it applies. Orders are processed by Paddle.com, our reseller and Merchant of Record. Your licence key arrives straight after payment. See the <a href="terms/">Terms</a> and <a href="refunds/">Refund Policy</a>.</p>
+      </div>
+    </section>
+
     <section class="section" id="faq">
       <div class="container">
         <div class="section-heading">
@@ -148,6 +188,9 @@
           <details><summary>Does iMirror send my Android screen to the cloud?</summary><p>No. The screen stream is sent directly between the Android device and your Mac over USB or your configured local network. iMirror does not route screen content through an Our Apps World server.</p></details>
           <details><summary>Can iMirror save screenshots and recordings?</summary><p>Yes. Save a PNG screenshot or an MP4 video recording to a location you choose. Recordings contain video only and do not include audio.</p></details>
           <details><summary>What Mac version does iMirror require?</summary><p>iMirror requires macOS 14 or later and an Android phone or tablet with debugging enabled.</p></details>
+          <details><summary>How much does iMirror cost?</summary><p>iMirror has a free 14-day trial with every feature. After that, iMirror Lifetime is a one-time $9 purchase for one person, active on one Mac at a time, with every future update and no subscription.</p></details>
+          <details><summary>Can I use my licence on another Mac?</summary><p>A licence is active on one Mac at a time. Activate your key on another Mac and it moves there; the first Mac is signed out automatically. You can also free it from iMirror › Licence.</p></details>
+          <details><summary>Can I get a refund?</summary><p>Yes. You can get a full refund within 14 days of purchase. See the Refund Policy for how to ask.</p></details>
         </div>
       </div>
     </section>
@@ -156,7 +199,7 @@
   <footer class="site-footer">
     <div class="container footer-row">
       <div class="footer-copy">© 2026 OAW INFOTECH LLP · Our Apps World<br>Built for people who like their tools clear and dependable.</div>
-      <div class="footer-links"><a href="manual/">User manual</a><a href="privacy/">Privacy</a><a href="https://ourappsworld.com/">Our Apps World</a><a href="mailto:support@ourappsworld.com">Contact support</a></div>
+      <div class="footer-links"><a href="manual/">User manual</a><a href="privacy/">Privacy</a><a href="terms/">Terms</a><a href="refunds/">Refunds</a><a href="https://ourappsworld.com/">Our Apps World</a><a href="mailto:support@ourappsworld.com">Contact support</a></div>
     </div>
   </footer>
 </body>
