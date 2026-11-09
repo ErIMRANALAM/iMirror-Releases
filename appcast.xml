@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- items -->
     <item>
+      <title>iMirror 0.2.1</title>
+      <pubDate>Mon, 09 Nov 2026 10:35:51 +0000</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Changed</h3>
+<li>iMirror's bundle identifier is now <code>com.ourappsworld.app.imirror.macos</code> (was <code>dev.imirror.macos</code>). Your trial carries over; if you had activated a licence, enter your key once more under iMirror › Licence… (it re-activates on the same Mac). If in-app update does not offer this version, download the DMG from the releases page.</li>]]></description>
+      <enclosure url="https://github.com/ErIMRANALAM/iMirror-Releases/releases/download/v0.2.1/iMirror-0.2.1-macos-universal.dmg" sparkle:edSignature="4seHkUd6EbNcEVrARH8PD2Q6JfMZuqoqUype6q6CDsG+ZyebZUi5gAFekatM3zhwgjEe0X//pK+YHfeYywf5Cg==" length="4793076" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>iMirror 0.2.0</title>
       <pubDate>Sat, 07 Nov 2026 19:51:25 +0000</pubDate>
       <sparkle:version>8</sparkle:version>
