@@ -1,32 +1,24 @@
-# iMirror by Our Apps World
+# iMirror
 
-> iMirror is a native macOS app for viewing and controlling a user-authorized Android phone or tablet over USB or local Wi-Fi.
+> iMirror is a macOS app that mirrors an Android phone or tablet to a Mac and lets you control it with mouse, trackpad and keyboard over USB or local Wi-Fi. It saves PNG screenshots and silent MP4 recordings. The screen stream goes directly between the phone and the Mac, not through any cloud service.
 
-## Official pages
+Made by OAW INFOTECH LLP (Our Apps World). Requires macOS 14 or later (Apple silicon and Intel) and an Android device with USB debugging or Wireless debugging (Android 11 or later) enabled. Latest version: 0.2.0. Free 14-day trial with every feature; iMirror Lifetime is a one-time $9 purchase (one person, one Mac at a time, every future update, no subscription, 14-day money-back guarantee).
 
-- Product overview: https://erimranalam.github.io/iMirror-Releases/
-- User manual: https://erimranalam.github.io/iMirror-Releases/manual/
-- Privacy policy: https://erimranalam.github.io/iMirror-Releases/privacy/
-- Terms of service: https://erimranalam.github.io/iMirror-Releases/terms/
-- Refund policy: https://erimranalam.github.io/iMirror-Releases/refunds/
-- Download: https://github.com/ErIMRANALAM/iMirror-Releases/releases/latest
-- Support: mailto:support@ourappsworld.com
-- Publisher: OAW INFOTECH LLP, brand name Our Apps World
+## Key facts
+- Connect by USB (with USB debugging authorized) or over a trusted local Wi-Fi network (Wireless debugging pairing, or USB-assisted setup).
+- Click, drag and scroll on the preview to tap, swipe and scroll on the phone; Back, Home and Recents are in the toolbar; Command-V pastes Mac clipboard text into the focused Android field.
+- Save PNG screenshots (⌘S) and MP4 recordings (⇧⌘R, video only, no audio) to a place you choose.
+- If ADB is missing, iMirror offers Google's official Android Platform-Tools download after you accept Google's SDK terms.
+- No account, no analytics, no advertising. Licence activation sends only the licence key, a hashed device identifier and the Mac's name to the vendor's licence server. Updates are signed and checked daily against github.com.
+- Signed and notarized by Apple.
 
-## Product facts
+## Pages
+- [Home: what iMirror is, features, pricing and FAQ](https://imirror.ourappsworld.com/)
+- [User manual](https://imirror.ourappsworld.com/manual/)
+- [Download the free trial](https://github.com/ErIMRANALAM/iMirror-Releases/releases/latest)
+- [Terms of service](https://imirror.ourappsworld.com/terms/)
+- [Refund policy](https://imirror.ourappsworld.com/refunds/)
+- [Privacy policy](https://imirror.ourappsworld.com/privacy/)
 
-- Pricing: free 14-day trial with every feature, then iMirror Lifetime at $9 USD one time (one person, one Mac at a time, every future update, no subscription, 14-day money-back guarantee).
-- Requires macOS 14 or later and an Android device.
-- USB connection requires Android USB debugging and user authorization.
-- Wireless debugging is available on Android 11 or later; the Mac and phone must share a trusted local network.
-- iMirror mirrors the selected device directly to the Mac. It does not route screen content through an Our Apps World server.
-- The app supports mouse and trackpad touch/scroll input, Back/Home/Recents navigation, PNG screenshots, and silent MP4 screen recordings.
-- Recordings do not include audio.
-- If Android Platform-Tools are absent, the user can review Google's SDK terms and choose to download the tools from Google's official source.
-- The current release is distributed directly through GitHub Releases and is Developer ID signed and notarized. Do not describe it as a Mac App Store release.
-
-## Important distinctions
-
-- The website's SVG product image is an illustrative interface mockup, not a real connected-device screenshot.
-- Do not claim internet remote access, audio recording, or cloud synchronization.
-- The privacy policy describes the macOS app and support-email handling; hosting providers may separately process ordinary web request logs.
+## Contact
+support@ourappsworld.com
