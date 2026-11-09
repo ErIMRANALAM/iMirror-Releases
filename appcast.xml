@@ -16,17 +16,5 @@
 <li>iMirror's bundle identifier is now <code>com.ourappsworld.app.imirror.macos</code> (was <code>dev.imirror.macos</code>). Your trial carries over; if you had activated a licence, enter your key once more under iMirror › Licence… (it re-activates on the same Mac). If in-app update does not offer this version, download the DMG from the releases page.</li>]]></description>
       <enclosure url="https://github.com/ErIMRANALAM/iMirror-Releases/releases/download/v0.2.1/iMirror-0.2.1-macos-universal.dmg" sparkle:edSignature="4seHkUd6EbNcEVrARH8PD2Q6JfMZuqoqUype6q6CDsG+ZyebZUi5gAFekatM3zhwgjEe0X//pK+YHfeYywf5Cg==" length="4793076" type="application/octet-stream"/>
     </item>
-    <item>
-      <title>iMirror 0.2.0</title>
-      <pubDate>Sat, 07 Nov 2026 19:51:25 +0000</pubDate>
-      <sparkle:version>8</sparkle:version>
-      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>Added</h3>
-<li><b>Licence.</b> iMirror is free to try for 14 days with every feature. After that, <b>iMirror Lifetime</b> is a one-time $9 licence for one person, active on one Mac at a time, with every future update. Enter a key under iMirror › Licence… (⇧⌘L), or open the *Activate in iMirror* link after buying.</li>
-<li><b>In-app updates.</b> iMirror checks once a day for new versions (turn it off in Help &amp; About), and *iMirror › Check for Updates…* checks at once. Updates are signed and verified before they install.</li>
-<li>Help &amp; About now shows your version, licence and update status, and the user manual covers the licence and updates.</li>]]></description>
-      <enclosure url="https://github.com/ErIMRANALAM/iMirror-Releases/releases/download/v0.2.0/iMirror-0.2.0-macos-universal.dmg" sparkle:edSignature="LK3ouoF6Lu5gxHOHvOOdqBsnKPxC34qzTInV5PH5mt3N8YMa5rDRvkTcV0S+dubKhxGBszL5K5FyWM0oMLPcDQ==" length="4766549" type="application/octet-stream"/>
-    </item>
   </channel>
 </rss>
